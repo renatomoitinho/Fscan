@@ -11,7 +11,7 @@ easy reflection java
 - search by filter,name,partial name,package
 
 
-```code
+```java
 
         FScan.findAll().all(); 
         FScan.findInterfaces().all();
