@@ -1,11 +1,13 @@
+TESTE asda
+
 # FScan API
 
-easy reflection java 
+easy reflection java
 
 - search class
 - search interfaces
 - search enums
-- search annotations 
+- search annotations
 - search packages
 - search all instances
 - search by filter,name,partial name,package
@@ -13,7 +15,7 @@ easy reflection java
 
 ```java
 
-        FScan.findAll().all(); 
+        FScan.findAll().all();
         FScan.findInterfaces().all();
         FScan.findClass().all();
         FScan.findEnum().all();
