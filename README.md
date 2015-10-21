@@ -1,5 +1,3 @@
-TESTE asda
-
 # FScan API
 
 easy reflection java
@@ -30,7 +28,7 @@ easy reflection java
 
         FScan.findInterfaces().filter(FscanFilter.contains("Action","Query")).in("br.com.fscan");
 
-        //FScan.findClass().filter(FScanFilter.annotationPresent(a.class,b.class ...) )
-        //FScan.findClass().filter(FScanFilter.contains("param") )
+        FScan.findClass().filter(FScanFilter.annotationPresent(a.class,b.class ...) )
+        FScan.findClass().filter(FScanFilter.contains("param") )
 
 ```
